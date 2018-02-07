@@ -2,5 +2,5 @@
 
 def position_taken?(array, pos)
   empty_spaces = ["", " "]
-  return !empty_spaces.includes(array[pos])
+  return !empty_spaces.include?(array[pos])
 end
